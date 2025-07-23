@@ -1,0 +1,82 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f7fa;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.dashboard {
+  max-width: 850px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0002;
+}
+.card {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #e3f2fd;
+}
+.card.positivo {
+  background: #e6ffe6;
+}
+.card.negativo {
+  background: #ffe6e6;
+}
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.chart-item {
+  width: 360px;
+  background: #f7f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.positivo {
+  color: #008000;
+}
+.negativo {
+  color: #b00020;
+}
+.tabela {
+  margin-top: 2rem;
+}
+.tabela table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+.tabela th,
+.tabela td {
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem;
+  text-align: center;
+}
+.tabela th {
+  background: #f5f7fa;
+}
+.dica {
+  background: #fffde7;
+  color: #ff9800;
+}
+input[type="file"] {
+  margin-right: 10px;
+}
+button {
+  background: #3578e5;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+button:hover {
+  background: #2851a3;
+}
